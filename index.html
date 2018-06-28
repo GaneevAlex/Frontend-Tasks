@@ -1,0 +1,93 @@
+<!doctype html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='css\style.css' rel='stylesheet' type='text/css'>
+    <title>All tasks</title>
+</head>
+<body>
+    <input type="search" class="search" placeholder="Введите строку для поиска">
+    <div class="button __searchButton">Найти</div>
+
+    <table id="tableData">
+        <thead>
+            <tr>
+                <th data-type="Number" class="id">id</th>
+                <th class="firstName">firstName</th>
+                <th class="lastName">lastName</th>
+                <th class="email">email</th>
+                <th class="phone">phone</th>
+            </tr>
+        </thead>
+
+        <tbody class="showedRows"></tbody>
+
+        <tbody class="allRows">
+        <tr>
+            <td>12</td>
+            <td>Sue</td>
+            <td>Corson</td>
+            <td>DWhalley@in.gov</td>
+            <td>(612)11-6296</td>
+        </tr>
+        <tr>
+            <td>202</td>
+            <td>Lor</td>
+            <td>Ipsumd</td>
+            <td>dwhalley@in.gov</td>
+            <td>(612)112-6296</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Ips</td>
+            <td>Umdolo</td>
+            <td>dwhalley@in.gov</td>
+            <td>(612)211-6291</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <div id="pagination"></div>
+
+    <div id="additionalInformation">
+        <div class="fullName">
+            Выбран пользователь:
+        </div>
+        <div class="description">
+            Описание:
+        </div>
+        <div class="address">
+            Адрес проживания:
+        </div>
+        <div class="city">
+            Город:
+        </div>
+        <div class="state">
+            Провинция/штат:
+        </div>
+        <div class="index">
+            Индекс:
+        </div>
+    </div>
+
+    <div id="loadingScreen">
+        Пожалуйста подождите, загрузка данных может занять некоторое время, спасибо за понимание!
+    </div>
+
+    <script src="js/testFunc.js"></script>
+    <script src="js/dscount.js"></script>
+    <script src="js/checkSyntax.js"></script>
+    <script src="js/cookingAlgorithm.js"></script>
+    <script src="js/parseUrl.js"></script>
+    <script src="js/refactoringTask1.js"></script>
+    <script src="js/refactoringTask2.js"></script>
+    <script src="js/tableDraw.js"></script>
+    <script src="js/tableMain.js"></script>
+    <script src="js/tableSorting.js"></script>
+    <script src="js/tablePagination.js"></script>
+    <script src="js/tableSearch.js"></script>
+    <script src="js/tableRowOnClick.js"></script>
+</body>
+</html>
